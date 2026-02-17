@@ -2,6 +2,11 @@ body{
     background-color: black;
     margin-left: 10px;
     display:flow-root;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-position: ;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .box{
@@ -12,6 +17,104 @@ body{
     box-shadow: 10px 3px 3px red , 15px 5px 3px blue;
 
 
+}
+
+#pseudo1:link{
+    color:hsl(357, 73%, 45%);
+}
+
+#pseudo1:hover{
+    color:hsl(103, 90%, 49%);
+    font-size: 1.1em;
+}
+
+#pseudo1:active{
+    color:hsl(237, 100%, 50%);
+    font-size: 1.1em;
+}
+
+#hover p{
+    background-color: blueviolet;
+    padding:10px;
+    display:none;
+    border-bottom:2px double;
+}
+
+#hover:hover p{
+   display:inline-block; 
+}
+
+.list:hover{
+    color:coral;
+}
+
+.list:not(:hover){
+    color:rgb(69, 1, 1);
+}
+
+.list:nth-child(3n+2){
+    color:yellow;
+}
+
+#pseudo1:visited{
+    color:hsl(369, 73%, 45%);
+    font-size: 1em;
+}
+
+#pseudo1:visited:hover{
+    color:hsl(297, 100%, 51%);
+    font-size: 1em;
+}
+
+#container{
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}
+
+#container p{
+    background-color: yellow;
+}
+
+
+#position{
+    width:200px;
+    height:200px;
+    background-color: hsl(220, 95%, 57%);
+    position:relative;
+    top:0px;
+    left:0px;
+}
+
+
+#position2{
+    width:200px;
+    height:190px;
+    background-color: hsl(0, 95%, 57%);
+    position:fixed;
+    left:0px;
+    top:10px;
+    color:greenyellow;
+}
+
+
+#position3{
+    width:200px;
+    height:200px;
+    background-color: hsl(59, 98%, 43%);
+    position:sticky;
+    right:0px;
+    top:0px;
+}
+
+
+#position4{
+    width:100px;
+    height:100px;
+    background-color: hsl(292, 95%, 51%);
+    position:absolute;
+    left:0px;
+    top:0px;
 }
 
 #image1{
