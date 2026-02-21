@@ -3,18 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <title>My Website</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="icon" type="image/png" href="rickastley.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://kit.fontawesome.com/8ff29589e5.js" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
+<i class="fa-solid fa-bars fa-2x" id="navi"></i>
+<div class="navho">
+    <a href="#" id="home"><i class="fa-solid fa-house fa-shake fa-2x"></i></a>
+    <a href="#" id="youtube"><i class="fa-brands fa-youtube fa-2x"></i></a>
+</div>
+    <h1 id="h1">Welcome to My Website</h1>
+     <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+             <li><a href="page2.html">About</a></li>
+              <li><a href="page3.html">Products</a></li>
+               <li><a href="page4.html">Contacts</a></li>
+        </ul>
+    </nav>
 
-<h1 id="h1">Welcome to My Website</h1>
+    <main>
+        <br>
+        <h3>how to use sematic tags</h3>
+        <aside>
+            <h3>this is aside</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima fugiat sint dolore temporibus, quis vel aperiam, quos repudiandae similique consectetur voluptatibus, eveniet odit explicabo laborum veritatis rerum error dolores pariatur! </p>
+        </aside>
 
-<br>
-<div type="box" id="box1">box</div>
+        <section>
+           <h3>this is a section</h3> 
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam amet odio modi facere nihil, doloribus iste cumque. Itaque, mollitia maiores sed tempora, facilis delectus quam omnis dolorem aliquid facere modi.</p>
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod officiis earum vel ad magnam nostrum magni soluta dolor qui ex, facere consequuntur dignissimos nihil a rem quisquam doloribus adipisci explicabo.</p>
+        </section>
+
+        <article>
+            <h3>this is a article</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, aut at? In provident, nulla, nisi iste reiciendis nostrum hic temporibus voluptatum, ipsa iure laboriosam corrupti tempore vero modi dolorum possimus?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quam reprehenderit tenetur officia at velit tempore dolorem quidem voluptas. Ab voluptas repudiandae iusto itaque unde doloremque cupiditate facilis nostrum dolore.</p>
+        </article>
+
+        <br>
+        <br>
+        <br>
+
+        <h3>how to make an interactive gallary</h3>
+     
+       <h3>how to make an interactive gallery</h3>
+
+<div class="gallary">
+    <a href="rickastley.png" target="_blank">
+        <img src="rickastley.png" alt="image">
+    </a>
+    <div class="des">salads</div>
+</div>
+
+<div class="gallary">
+    <a href="rickroll.jpg" target="_blank">
+        <img src="rickroll.jpg" alt="image">
+    </a>
+    <div class="des">pizza</div>
+</div>
+
+<div class="gallary">
+    <a href="image.jpg" target="_blank">
+        <img src="image.jpg" alt="image">
+    </a>
+    <div class="des">food</div>
+</div>
+
+<div style="clear: both;"></div>
 
 <h3 id="h2">links and how to use them</h3>
 <a href="https://www.google.com/" target="_blank" title="Go to Google">Click me</a>
@@ -350,5 +411,71 @@ author:Methuka
         <p>hi man</p>
     </div>
 
+    <h3>pseudo elements and how to use them</h3>
+    <h3 id="h5">hello i am le drib</h3>
+    <p id="p1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum vitae quidem magni, ipsum reprehenderit aspernatur accusantium enim eum qui numquam dolorum minima, aliquid facere dolores inventore quae magnam velit! Iste.</p>
+    <ul id="fruit">
+        <li id="fruit1">bananna</li>
+        <li id="fruit2">apple</li>
+        <li id="fruit3">orange</li>
+    </ul>
+
+    <h3>how to use pagination</h3>
+
+    <h4>this is page #1</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet repudiandae nesciunt praesentium facilis illum labore, aliquam voluptate unde iusto sunt incidunt facere sit? Minima exercitationem facere quia recusandae ullam et.</p>
+    
+    <div class="pagination">
+        <a href="index.html"><</a>
+        <a href="index.html" class="active" >1</a>
+        <a href="page2.html" >2</a>
+        <a href="page3.html" >3</a>
+        <a href="page4.html" >4</a>
+        <a href="page5.html" >5</a>
+        <a href="page2.html" >></a>
+    </div>
+
+    <h3>how to make dropdown menus</h3>
+
+    <div class="dropdown">
+        <button>food</button>
+        <div class="content">
+            <a href="">apple</a>
+            <a href="">orange</a>
+            <a href="">bannana</a>
+        </div>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit voluptates quae modi ipsum, voluptatem repellendus, placeat et nobis odit molestias aut! Cum veniam error odio odit deserunt autem consectetur officiis?</p>
+
+   <h3>flexbox</h3>
+
+   <a href="flexbox.html"><button  id="flex">flexbox</button></a>
+   
+
+   <h3>how to use tranformations</h3>
+   <div id="box7">hi</div>
+   <img src="rickroll.jpg" alt="img4" id="img7">
+
+
+<h3>animations and how to use them</h3>
+
+<div id="boxy7">Hi</div>
+
+
+
+</main>
+
+<script>
+    const navi = document.getElementById('navi');
+    const navho = document.querySelector('.navho');
+
+    navi.addEventListener('click', () => {
+        navho.classList.toggle('show');
+    });
+</script>
+
 </body>
 </html>
+
+
+
